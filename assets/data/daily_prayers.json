@@ -1,0 +1,52 @@
+[
+  {
+    "id": "prayer-0",
+    "title": "Sabah Duası",
+    "prayer": "Allah'ım! Bu günün başlangıcını, ortasını ve sonunu hayırlı eyle. Başlangıcını rahmet, ortasını feyiz ve bereket, sonunu ise mağfiret ve rıza eyle. Amin."
+  },
+  {
+    "id": "prayer-1",
+    "title": "Akşam Duası",
+    "prayer": "Allah'ım! Senin yardımınla akşama ulaştık, senin yardımınla sabaha kavuştuk. Senin yardımınla yaşar, senin yardımınla ölürüz ve dönüş yalnız sanadır. Amin."
+  },
+  {
+    "id": "prayer-2",
+    "title": "Yemek Duası (Başlarken)",
+    "prayer": "Bismillahirrahmanirrahim. Allah'ım! Bize rızık olarak verdiklerine bereket ver ve bizi cehennem azabından koru. Amin."
+  },
+  {
+    "id": "prayer-3",
+    "title": "Yemek Duası (Bitince)",
+    "prayer": "Elhamdülillahillezî et'amenâ ve sekânâ ve cealenâ minel müslimîn. Bizi yediren, içiren ve Müslümanlardan eyleyen Allah'a hamdolsun. Amin."
+  },
+  {
+    "id": "prayer-4",
+    "title": "Şükür Duası",
+    "prayer": "Allah'ım! Bana verdiğin nimetlere şükretmeyi ve sana güzelce ibadet etmeyi nasip eyle. Verdiğin her türlü nimet için sana sonsuz hamdolsun. Amin."
+  },
+  {
+    "id": "prayer-5",
+    "title": "Hastalık İçin Şifa Duası",
+    "prayer": "Ey insanların Rabbi! Rahatsızlığı gider! Şifa veren sensin. Senin şifandan başka şifa yoktur. Öyle bir şifa ver ki, hiçbir hastalık bırakmasın. Amin."
+  },
+  {
+    "id": "prayer-6",
+    "title": "Yolculuk Duası",
+    "prayer": "Allah'ım! Bu yolculuğumuzda bize kolaylıklar ihsan eyle. Yolun zorluklarından, dönüşün sıkıntılarından ve ailemize, malımıza gelecek kötülüklerden sana sığınırız. Amin."
+  },
+  {
+    "id": "prayer-7",
+    "title": "Sıkıntı Anında Okunacak Dua",
+    "prayer": "La ilahe illa ente sübhaneke inni küntü minezzalimin. Senden başka ilah yoktur. Seni her türlü noksanlıktan tenzih ederim. Gerçekten ben zalimlerden oldum. Amin."
+  },
+  {
+    "id": "prayer-8",
+    "title": "İlim Duası",
+    "prayer": "Rabbi zidni ilmen ve fehmen. Rabbim! İlmimi ve anlayışımı artır. Amin."
+  },
+  {
+    "id": "prayer-9",
+    "title": "Bereket Duası",
+    "prayer": "Allah'ım! İşlerimizde, rızkımızda, evimizde ve ömrümüzde bereket ihsan eyle. Amin."
+  }
+] 

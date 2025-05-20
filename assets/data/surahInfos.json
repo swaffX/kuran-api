@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fatiha",
+    "name": "Fâtiha Suresi",
+    "totalAyets": 7,
+    "meaningSummary": "Kur'an-ı Kerim'in ilk suresi olup, \"açan\" anlamına gelir. Namazların her rekatında okunur.",
+    "revelationType": "Mekki",
+    "audioUrl": "https://www.example.com/fatiha.mp3"
+  },
+  {
+    "id": "ihlas",
+    "name": "İhlâs Suresi",
+    "totalAyets": 4,
+    "meaningSummary": "Allah'ın birliğini ve benzersizliğini vurgulayan kısa ve özlü bir suredir.",
+    "revelationType": "Mekki",
+    "audioUrl": "https://www.example.com/ihlas.mp3"
+  },
+  {
+    "id": "nas",
+    "name": "Nâs Suresi",
+    "totalAyets": 6,
+    "meaningSummary": "İnsanların sığındığı Allah'a, vesvese veren her türlü kötülükten sığınmayı öğretir.",
+    "revelationType": "Medeni",
+    "audioUrl": "https://www.example.com/nas.mp3"
+  },
+  {
+    "id": "felak",
+    "name": "Felak Suresi",
+    "totalAyets": 5,
+    "meaningSummary": "Yaratılmışların şerrinden, gecenin karanlığından, düğümlere üfleyenlerden ve hasetçinin şerrinden Allah'a sığınmayı ifade eder.",
+    "revelationType": "Medeni",
+    "audioUrl": "https://www.example.com/felak.mp3"
+  }
+] 
