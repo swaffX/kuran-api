@@ -290,10 +290,10 @@ export default function QiblaScreen() {
       width: COMPASS_SIZE - 16,
       height: COMPASS_SIZE - 16,
       borderRadius: (COMPASS_SIZE - 16) / 2,
-      borderWidth: 1,
-      borderColor: colors.border,
-      alignItems: 'center',
-      justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: colors.border,
+        alignItems: 'center',
+        justifyContent: 'center',
       backgroundColor: theme === 'dark' ? '#2C2C2E' : '#F5F5F7',
       overflow: 'hidden',
     },
@@ -326,7 +326,7 @@ export default function QiblaScreen() {
       alignItems: 'center',
     },
     needleContainer: {
-      position: 'absolute',
+        position: 'absolute',
       zIndex: 10,
       width: 2,
       height: COMPASS_SIZE/2,
@@ -352,7 +352,7 @@ export default function QiblaScreen() {
       height: 20,
       borderRadius: 10,
       backgroundColor: theme === 'dark' ? '#E0E0E0' : '#333333',
-      position: 'absolute',
+        position: 'absolute',
       borderWidth: 2,
       borderColor: theme === 'dark' ? '#2C2C2E' : '#F2F2F7',
       zIndex: 15,
@@ -431,7 +431,7 @@ export default function QiblaScreen() {
     tipText: {
       fontSize: 12,
       color: colors.textSecondary,
-      textAlign: 'center',
+        textAlign: 'center',
     },
     alignedIndicator: {
       position: 'absolute',
@@ -472,14 +472,14 @@ export default function QiblaScreen() {
       </View>
       
       <View style={styles.compassCard}>
-        <View style={styles.compassContainer}>
+      <View style={styles.compassContainer}>
           <View style={styles.compassOuterRing}/>
-          <View style={styles.compassBackground}>
+        <View style={styles.compassBackground}>
             <ThemedText style={[styles.directionText, {top: 10, transform: [{ rotate: '0deg'}] }]}>K</ThemedText>
             <ThemedText style={[styles.directionText, {bottom: 10, transform: [{ rotate: '180deg'}] }]}>G</ThemedText>
             <ThemedText style={[styles.directionText, {left: 10, top: '48%', transform: [{ rotate: '270deg'}] }]}>B</ThemedText>
             <ThemedText style={[styles.directionText, {right: 10, top: '48%', transform: [{ rotate: '90deg'}] }]}>D</ThemedText>
-            
+
             <View style={styles.compassInnerCircle} />
             
             {isQiblaAligned && (
@@ -498,7 +498,7 @@ export default function QiblaScreen() {
             <View style={styles.needleBody} />
           </Animated.View>
           
-          <View style={styles.pivot} />
+            <View style={styles.pivot} />
         </View>
       </View>
 
@@ -507,20 +507,20 @@ export default function QiblaScreen() {
           {isQiblaAligned 
             ? '🕋 Kıble Yönü Bulundu!' 
             : 'Kıble Yönünü Bulmak İçin Telefonu Çevirin'}
-        </ThemedText>
+      </ThemedText>
 
         <View style={styles.infoRow}>
           <IconSymbol name="location.north.fill" size={20} color={colors.tint} style={styles.infoIcon} />
           <ThemedText style={styles.infoText}>
             Kıble Açısı: <ThemedText style={styles.highlightedText}>{Math.round(qiblaDirection)}°</ThemedText>
-          </ThemedText>
+      </ThemedText>
         </View>
 
         <View style={styles.infoRow}>
           <IconSymbol name="arrow.triangle.2.circlepath" size={20} color={colors.icon} style={styles.infoIcon} />
           <ThemedText style={styles.infoText}>
             Mevcut Yön: {Math.round(smoothedHeading)}°
-          </ThemedText>
+      </ThemedText>
         </View>
 
         <TouchableOpacity style={styles.calibrateButton} onPress={startCalibration}>
@@ -528,7 +528,7 @@ export default function QiblaScreen() {
           <ThemedText style={styles.calibrateButtonText}>Pusulayı Kalibre Et</ThemedText>
         </TouchableOpacity>
 
-        {location && (
+      {location && (
           <ThemedText style={styles.locationText}>
             Konum: {location.coords.latitude.toFixed(4)}, {location.coords.longitude.toFixed(4)}
           </ThemedText>
@@ -541,7 +541,7 @@ export default function QiblaScreen() {
         </ThemedText>
         <ThemedText style={styles.tipText}>
           ⚠️ Metal nesnelerden ve elektronik cihazlardan uzak tutun.
-        </ThemedText>
+      </ThemedText>
       </View>
     </ThemedView>
   );

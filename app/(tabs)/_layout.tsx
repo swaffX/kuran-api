@@ -6,7 +6,7 @@ import { TouchableOpacity, View } from 'react-native';
 import FavoritesModal from '../../components/FavoritesModal';
 
 export default function TabLayout() {
-  const { theme, toggleTheme, colors } = useTheme();
+  const { theme, colors } = useTheme();
   const [isFavoritesModalVisible, setIsFavoritesModalVisible] = useState(false);
 
   const renderHeaderRight = () => (
@@ -14,13 +14,6 @@ export default function TabLayout() {
       <TouchableOpacity onPress={() => setIsFavoritesModalVisible(true)} style={{ marginRight: 15 }}>
         <IconSymbol 
           name={'heart.fill'} 
-          size={24} 
-          color={colors.tint} 
-        />
-      </TouchableOpacity>
-      <TouchableOpacity onPress={toggleTheme} style={{ marginRight: 15 }}>
-        <IconSymbol 
-          name={theme === 'dark' ? 'sun.max.fill' : 'moon.fill'} 
           size={24} 
           color={colors.tint} 
         />
